@@ -5,9 +5,9 @@ function changeMe() {
     count++;
     if (count === 4) {
        count=1;
-        document.getElementById('divd').innerHTML = List[count];
+        document.getElementById('divd').innerHTML = List[count]+count.toString();
     } else {
-          document.getElementById('divd').innerHTML = List[count];
+          document.getElementById('divd').innerHTML = List[count]+ count.toString();
     }
  
     
